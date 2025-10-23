@@ -1,4 +1,6 @@
-export const dynamic = "force-dynamic"; // no-store
+// Force dynamic rendering — no cache. Every request re-renders on the server.
+// Interview: Use this when data must be fresh or sensitive per request.
+export const dynamic = "force-dynamic";
 
 export default function Dynamic() {
   return (

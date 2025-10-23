@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 
+// Client page that calls the Edge API to fetch server-observed headers.
+// Interview: Browsers hide some headers; this approach shows the server's view.
 export default function HeadersPage() {
   const [headers, setHeaders] = useState<Record<string, string>>({});
   const [error, setError] = useState<string | null>(null);
@@ -16,8 +18,8 @@ export default function HeadersPage() {
     <main>
       <h2>Headers Inspector</h2>
       <p>Server-observed request headers (via Edge API):</p>
-      {error && <p style={{color:"crimson"}}>{error}</p>}
-      <pre style={{whiteSpace:"pre-wrap", background:"#f6f6f6", padding:12, borderRadius:8}}>
+      {error && <p style={{ color: "crimson" }}>{error}</p>}
+      <pre style={{ whiteSpace: "pre-wrap", background: "#f6f6f6", padding: 12, borderRadius: 8 }}>
         {JSON.stringify(headers, null, 2)}
       </pre>
     </main>
