@@ -1,0 +1,9 @@
+# Node / Next
+node_modules
+.next
+out
+.vscode
+.DS_Store
+.env
+.env.*
+.vercel
