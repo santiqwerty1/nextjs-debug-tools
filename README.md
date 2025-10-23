@@ -1,7 +1,6 @@
 # Next.js Debug Tools
 
 **Live:** https://nextjs-debug-tools.vercel.app  
-**Repo:** https://github.com/santiqwerty1/nextjs-debug-tools
 
 A tiny, purpose-built Next.js 14 app that demonstrates the **exact surfaces a Vercel Customer Support Engineer** troubleshoots daily:
 
