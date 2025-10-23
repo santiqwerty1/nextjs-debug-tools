@@ -11,3 +11,7 @@ export default function Dynamic() {
     </main>
   );
 }
+
+//Purpose: Dynamic (no-store) page; forces a fresh server render each request (timestamp always changes). 
+
+// Interview points: when to pick no-store vs ISR (e.g., truly real-time, per-request auth/gating, or sensitive data).

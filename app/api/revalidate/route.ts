@@ -9,3 +9,7 @@ export async function POST() {
     headers: { "content-type": "application/json" }
   });
 }
+
+//Purpose: Manual revalidation endpoint that calls revalidatePath("/revalidated").
+
+// Interview points: Use cases for on-demand ISR (CMS updates, admin dashboards, cache invalidation without redeploy).

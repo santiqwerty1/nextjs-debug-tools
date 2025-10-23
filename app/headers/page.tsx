@@ -25,3 +25,7 @@ export default function HeadersPage() {
     </main>
   );
 }
+
+// Purpose: Client page that fetches /api/echo to show server-observed headers (browser headers differ from server’s view). 
+
+// Interview points: Edge runtime differences, debugging auth/cookies and cache via headers, why we show server-side headers rather than browser ones.

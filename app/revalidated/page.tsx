@@ -14,3 +14,7 @@ export default function Revalidated() {
     </main>
   );
 }
+
+//Purpose: ISR page with revalidate = 120, plus a form that triggers manual revalidation through POST /api/revalidate. 
+
+// Interview points: difference between ISR vs no-store, how revalidatePath refreshes cached content without rebuilds, and how to choose appropriate revalidation intervals.

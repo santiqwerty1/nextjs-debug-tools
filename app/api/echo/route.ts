@@ -15,3 +15,7 @@ export async function GET(request: Request) {
     headers: { "content-type": "application/json", "cache-control": "no-store" }
   });
 }
+
+//Purpose: Edge API that enumerates request headers and echoes a message. Great for debugging headers/cookies/caching.
+
+// Interview points: When to choose Edge vs Node runtime; cache-control for debug endpoints; global latency.
